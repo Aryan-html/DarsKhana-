@@ -29,6 +29,23 @@
       margin-bottom: 15px;
       border-radius: 8px;
     }
+    .button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 28px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 10px;
+      transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 2px 8px rgba(76, 175, 80, 0.12);
+    }
+    .button:hover {
+      background-color: #388e3c;
+      transform: scale(1.06);
+      box-shadow: 0 4px 16px rgba(56, 142, 60, 0.16);
+    }
     footer {
       margin-top: 40px;
       text-align: center;
@@ -51,12 +68,14 @@
     <h3>📐 ریاضی</h3>
     <p>شامل مباحث: مجموعه‌ها، جبر، معادلات درجه دوم، تابع، لگاریتم، مثلثات و غیره.</p>
     <p>🔜 به‌زودی ویدیوها و تمرین‌ها اضافه خواهد شد.</p>
+    <button class="button">مشاهده جزئیات</button>
   </div>
 
   <div class="course">
     <h3>📖 تاریخ</h3>
     <p>مروری بر تاریخ افغانستان، کشورهای اسلامی، و تاریخ معاصر.</p>
     <p>🔜 جزوه‌ها و منابع در حال آماده‌سازی است.</p>
+    <button class="button">مشاهده جزئیات</button>
   </div>
 </section>
 
@@ -67,4 +86,3 @@
 
 </body>
 </html>
-
